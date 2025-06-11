@@ -4,7 +4,8 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
 import { HiOutlineXMark, HiBars3 } from 'react-icons/hi2';
-import { FaFingerprint } from 'react-icons/fa';
+import Image from 'next/image';
+
 
 import Container from './Container';
 import { siteDetails } from '@/data/siteDetails';
@@ -22,12 +23,19 @@ const Header: React.FC = () => {
             <Container className="!px-0">
                 <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-10">
                     {/* Logo */}
-                    <Link href="/" className="flex items-center gap-2">
-                        <FaFingerprint className="text-foreground min-w-fit w-7 h-7" />
-                        <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
-                            {siteDetails.siteName}
-                        </span>
-                    </Link>
+        <Link href="/" className="flex items-center gap-2">
+            <div className="relative h-12 w-32 md:h-16 md:w-48 lg:h-16 lg:w-56">
+                <Image
+                    src={siteDetails.siteLogo}
+                    alt={siteDetails.siteName}
+                    fill
+                    className="object-contain"
+                    priority
+                />
+            </div>
+        </Link>
+
+
 
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex space-x-6">
