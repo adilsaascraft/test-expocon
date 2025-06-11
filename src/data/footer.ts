@@ -23,7 +23,7 @@ export const footerDetails: {
         }
     ],
     email: 'mintu.nath@saascraft.studio',
-    telephone: '+1 (123) 456-7890',
+    telephone: '+91 12345 67890',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
