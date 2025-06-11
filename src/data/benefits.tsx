@@ -9,31 +9,31 @@ export const benefits: IBenefit[] = [
         bullets: [
             {
                 title: "Personalized Agenda",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
+                description: "Smart scheduling that adapts to you in real time.",
                 icon: <FiBarChart2 size={26} />
             },
             {
                 title: "Visit & Scan Exhibitor",
-                description: "Set and track financial objectives that matter to you.",
+                description: "Tap into the exhibitor experience—just scan as you go!",
                 icon: <FiTarget size={26} />
             },
             {
                 title: "Quiz & Polls",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
+                description: "Tap, vote, and test your knowledge anytime, anywhere.",
                 icon: <FiTrendingUp size={26} />
             },
              {
                 title: "Event Info",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
+                description: "Access schedules, venues, and updates anytime on your phone.",
                 icon: <FiTrendingUp size={26} />
             },
              {
                 title: "Quick Links",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
+                description: "Find what you need in seconds with quick shortcuts.",
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/home1.PNG"
     },
     {
         title: "Seamless Investing",
@@ -41,62 +41,62 @@ export const benefits: IBenefit[] = [
         bullets: [
             {
                 title: "Agenda",
-                description: "Begin with as little as $1 and watch your money grow.",
+                description: "Stay on track with your daily session lineup.",
                 icon: <FiDollarSign size={26} />
             },
             {
                 title: "Session Details",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
+                description: "Get session times, speakers, and descriptions at your fingertips.",
                 icon: <FiBriefcase size={26} />
             },
             {
                 title: "Speaker",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
+                description: "Explore speaker details to plan your sessions.",
                 icon: <FiPieChart size={26} />
             },
             {
                 title: "Speaker Details",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
+                description: "Explore speaker credentials and their session highlights.",
                 icon: <FiPieChart size={26} />
             },
             {
                 title: "Session Checkin",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
+                description: "Facilitate smooth session access through timely check-in.",
                 icon: <FiPieChart size={26} />
             }
         ],
-        imageSrc: "/images/mockup-2.webp"
+        imageSrc: "/images/home1.PNG"
     },
     {
         title: "Bank-Grade Security",
         description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
         bullets: [
             {
-                title: "Exhibitor",
-                description: "Your information is safeguarded with the highest level of encryption.",
+                title: "Exhibitor List",
+                description: "Discover all exhibiting organizations and their booth details.",
                 icon: <FiLock size={26} />
             },
             {
                 title: "Exhibitor Details",
-                description: "Access your account securely with fingerprint or facial recognition.",
+                description: "Review exhibitor highlights to make informed visits.",
                 icon: <FiUser size={26} />
             },
             {
                 title: "Committee",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
+                description: "Discover the individuals shaping the vision and direction of the event.",
                 icon: <FiShield size={26} />
             },
             {
                 title: "Delegates",
-                description: "Access your account securely with fingerprint or facial recognition.",
+                description: "Connect with fellow delegates and expand your professional network.",
                 icon: <FiUser size={26} />
             },
             {
                 title: "Downloads",
-                description: "Access your account securely with fingerprint or facial recognition.",
+                description: "Stay informed with downloadable resources provided by organizers.",
                 icon: <FiUser size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/home1.PNG"
     },
 ]
