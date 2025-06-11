@@ -33,7 +33,7 @@ export const benefits: IBenefit[] = [
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/home1.PNG"
+        imageSrc: "/images/Home1.png"
     },
     {
         title: "Seamless Investing",
@@ -65,7 +65,7 @@ export const benefits: IBenefit[] = [
                 icon: <FiPieChart size={26} />
             }
         ],
-        imageSrc: "/images/home1.PNG"
+        imageSrc: "/images/Home1.png"
     },
     {
         title: "Bank-Grade Security",
@@ -97,6 +97,6 @@ export const benefits: IBenefit[] = [
                 icon: <FiUser size={26} />
             }
         ],
-        imageSrc: "/images/home1.PNG"
+        imageSrc: "/images/Home1.png"
     },
 ]
