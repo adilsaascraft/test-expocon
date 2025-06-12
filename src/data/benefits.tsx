@@ -4,8 +4,8 @@ import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+        title: "Everything You Need for a Smarter, Interactive Event Experience",
+        description: "From personalized agendas to instant exhibitor scans, stay connected, informed, and engaged—right from your mobile.",
         bullets: [
             {
                 title: "Personalized Agenda",
@@ -33,11 +33,11 @@ export const benefits: IBenefit[] = [
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/Home1.png"
+        imageSrc: "/images/Mobile_Home.png"
     },
     {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+        title: "Your Complete Guide to Sessions and Speakers",
+        description: "View agendas, explore speaker profiles, and check into sessions—everything you need for a streamlined event journey",
         bullets: [
             {
                 title: "Agenda",
@@ -65,11 +65,11 @@ export const benefits: IBenefit[] = [
                 icon: <FiPieChart size={26} />
             }
         ],
-        imageSrc: "/images/Home1.png"
+        imageSrc: "/images/Mobile_Home.png"
     },
     {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
+        title: "Explore, Connect, and Engage with the Event Community",
+        description: "From exhibitor insights to delegate networking and downloadable resources—everything you need to maximize your event experience.",
         bullets: [
             {
                 title: "Exhibitor List",
@@ -97,6 +97,6 @@ export const benefits: IBenefit[] = [
                 icon: <FiUser size={26} />
             }
         ],
-        imageSrc: "/images/Home1.png"
+        imageSrc: "/images/Mobile_Home.png"
     },
 ]
